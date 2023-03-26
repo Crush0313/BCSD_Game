@@ -229,7 +229,8 @@ namespace ConsoleApp1
             hp[0] = new int[] {4, 5};
             hp[1] = new int[5];
 
-
+            int mu = 10;
+            float mi = mu / 4.0f;
 
         }
         }
