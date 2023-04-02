@@ -39,6 +39,11 @@ namespace ConsoleApp1
         {
             enermy.takedamage(dmg);
         }
+        private enermy enermy1 = new goblin();
+        static private enermy enermy2 = new goblin();
+        private goblin goblin1 = (goblin)enermy2;
+        static private enermy enermy3 = new enermy();
+        private goblin goblin2 = (goblin)enermy3;
     }
 
     

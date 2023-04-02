@@ -1,5 +1,7 @@
 ﻿
 
+using System.Collections;
+
 namespace ConsoleApp1
 {
     internal class Program
@@ -10,20 +12,24 @@ namespace ConsoleApp1
         {
             /*            First_first.First();
                         seccond.start();*/
-            play play = new play();
-            enermy goblin = new goblin();
-            enermy dragon = new dragon();
-            play.Hit(dragon);
-            play.Hit(goblin);
+            /*play play = new play();*/
+            //enermy goblin = new goblin();
+            //enermy dragon = new dragon();
+            //play.Hit(dragon);
+            //play.Hit(goblin);
 
-            enermyss[0] = new goblin();
-            enermyss[1] = new dragon();
-            enermyss[2] = new goblin();
+            //enermyss[0] = new goblin();
+            //enermyss[1] = new dragon();
+            //enermyss[2] = new goblin();
 
-            for (int i = 0; i < enermyss.Length; i++)
-            {
-                enermyss[i].attack();
-            }
+            //for (int i = 0; i < enermyss.Length; i++)
+            //{
+            //    enermyss[i].attack();
+            //}
+            //arrayl arrayl = new arrayl();
+            //ququ ququ = new ququ();
+            //stst stst = new stst();
+            hash hash = new hash();
         }
 
     }
